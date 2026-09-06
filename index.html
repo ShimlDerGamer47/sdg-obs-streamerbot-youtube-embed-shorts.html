@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBS & SB - YouTube Last Shorts Request Command</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="IMG Ordner/Website Icon Ordner/Logo Overlay 1.1.png"
+    />
+    <link
+      rel="stylesheet"
+      href="OBS & SB - YouTube Last Shorts Request Command.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/@streamerbot/client/dist/streamerbot-client.js"
+    ></script>
+    <script
+      defer
+      src="OBS & SB - YouTube Last Shorts Request Command.js"
+    ></script>
+  </head>
+  <body>
+    <div
+      id="ytLastShortsRequestIframeContainerId"
+      class="yt-last-shorts-request-iframe-container"
+    >
+      <iframe
+        width="1080"
+        height="1920"
+        id="ytLastShortsRequestIframeId"
+        src="https://www.youtube.com/embed/placeholder"
+        title="YouTube Short player"
+        class="yt-last-shorts-request-iframe"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
